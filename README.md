@@ -2,6 +2,10 @@
 
 Hackathon NFL Big Data Bowl, UNAM. Dashboard web que muestra en qué situaciones un equipo pierde la posesión al intentar alcanzar el primero y diez, con un enfoque de head coach.
 
+![Dashboard en ejecución filtrado por Buffalo Bills](evidencia.png)
+
+*Dashboard ejecutándose en local, filtrado por Buffalo Bills (BUF): 7 juegos y 240 jugadas. Se ven los filtros, la lectura rápida del corte y los indicadores principales.*
+
 ## Pregunta detonadora
 
 **¿En qué situaciones un equipo perdió la posesión del balón al intentar avanzar a la marca del primero y diez?**

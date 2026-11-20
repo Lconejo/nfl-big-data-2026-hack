@@ -1,61 +1,96 @@
 
-===== setup 2026-11-19 14:37:48 =====
-14:37:44 Sistema detectado: windows x64  |  Python del arranque: 3.12.0
-14:37:48     Creando proyecto en: D:\Desktop\plantilla-hackathon\hackathon-unam
-14:37:48 MODO: instalación  |  versión del script: 2026-11-16  |  argumentos: (ninguno)
-14:37:48 SISTEMA: Windows-11-10.0.26200-SP0  |  detectado: windows x64  |  versión: 10.0.26200
-14:37:48 WINDOWS: build 26200  |  administrador: False
-14:37:48 PYTHON: 3.12.0 (C:\Users\cuyos\AppData\Local\Programs\Python\Python312\python.exe)
-14:37:48 USUARIO: cuyos  |  carpeta actual: D:\Desktop\plantilla-hackathon\plantilla-hackathon
-14:37:48 PROYECTO: D:\Desktop\plantilla-hackathon\hackathon-unam  |  largo de ruta: 45  |  espacios: False  |  no ASCII: False
-14:37:48 DISCO LIBRE: 70.1 GB
-14:37:48 PROXY: ninguno
-14:37:48 Proyecto: D:\Desktop\plantilla-hackathon\hackathon-unam
-14:37:48 
+===== setup 2026-11-20 11:29:41 =====
+11:29:41 Sistema detectado: windows x64  |  Python del arranque: 3.13.2
+11:29:41 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+11:29:41 SISTEMA: Windows-11-10.0.26300-SP0  |  detectado: windows x64  |  versión: 10.0.26300
+11:29:41 WINDOWS: build 26300  |  administrador: False
+11:29:41 PYTHON: 3.13.2 (C:\Users\domin\AppData\Local\Programs\Python\Python313\python.exe)
+11:29:41 USUARIO: domin  |  carpeta actual: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026
+11:29:41 PROYECTO: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack  |  largo de ruta: 85  |  espacios: False  |  no ASCII: False
+11:29:41 DISCO LIBRE: 4.7 GB
+11:29:41 PROXY: ninguno
+11:29:41 Proyecto: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack
+11:29:41 
+Validando (no se descarga ni instala nada)...
+11:29:41   paquete distinto: fastapi falta≠0.115.14
+11:29:41   paquete distinto: uvicorn falta≠0.34.3
+11:29:41   paquete distinto: pydantic falta≠2.11.7
+11:29:41   paquete distinto: pandas falta≠2.2.3
+11:29:41   paquete distinto: numpy falta≠2.1.3
+11:29:41   paquete distinto: strands-agents falta≠1.64.0
+11:29:41   paquete distinto: boto3 falta≠1.44.0
+11:29:41   paquete distinto: pytest falta≠8.3.5
+11:29:41   paquete distinto: httpx falta≠0.28.1
+11:29:41   Pieza            Esperado  Encontrado     Estado  
+11:29:41   ---------------  --------  -------------  --------
+11:29:41   uv               0.11.19   no encontrado  FALTA   
+11:29:41   Python (.venv)   3.12.12   no encontrado  FALTA   
+11:29:41   Node             v22.23.1  no encontrado  FALTA   
+11:29:41   npm              10.x      no encontrado  FALTA   
+11:29:41   Paquetes Python  9 fijos   0 coinciden    DISTINTA
+11:29:41   Paquetes npm     12 fijos  12 coinciden   OK      
+11:29:41 
+Revisando desviaciones del stack...
+11:29:41     El proyecto sigue el stack del evento
+11:29:41 
+RESULTADO: HAY PROBLEMAS. Corre setup sin --check para repararlos y envía setup.log si persisten.
+11:29:41 FIN con código de salida 1
+
+===== setup 2026-11-20 11:32:18 =====
+11:32:18 Sistema detectado: windows x64  |  Python del arranque: 3.13.2
+11:32:18 MODO: instalación  |  versión del script: 2026-11-16  |  argumentos: (ninguno)
+11:32:18 SISTEMA: Windows-11-10.0.26300-SP0  |  detectado: windows x64  |  versión: 10.0.26300
+11:32:18 WINDOWS: build 26300  |  administrador: False
+11:32:18 PYTHON: 3.13.2 (C:\Users\domin\AppData\Local\Programs\Python\Python313\python.exe)
+11:32:18 USUARIO: domin  |  carpeta actual: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack
+11:32:18 PROYECTO: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack  |  largo de ruta: 85  |  espacios: False  |  no ASCII: False
+11:32:18 DISCO LIBRE: 4.7 GB
+11:32:18 PROXY: ninguno
+11:32:18 Proyecto: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack
+11:32:18 
 [1/8] Preparando carpetas
-14:37:48     Reglas de Kiro instaladas en .kiro/steering/rules.md
-14:37:48 
+11:32:18 
 [2/8] Instalando uv 0.11.19
-14:37:48 descargando https://astral.sh/uv/0.11.19/install.ps1
-14:37:49 $ powershell -NoProfile -ExecutionPolicy Bypass -File D:\Desktop\plantilla-hackathon\hackathon-unam\.hackathon\.cache\downloads\uv-install.ps1
-14:37:53 downloading uv 0.11.19 (x86_64-pc-windows-msvc)
-installing to D:\Desktop\plantilla-hackathon\hackathon-unam\.hackathon\.tools\uv
+11:32:18 descargando https://astral.sh/uv/0.11.19/install.ps1
+11:32:20 $ powershell -NoProfile -ExecutionPolicy Bypass -File C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.cache\downloads\uv-install.ps1
+11:32:27 downloading uv 0.11.19 (x86_64-pc-windows-msvc)
+installing to C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\uv
   uv.exe
   uvx.exe
   uvw.exe
 everything's installed!
-14:37:55     uv 0.11.19 instalado en .tools/uv
-14:37:55 
+11:32:28     uv 0.11.19 instalado en .tools/uv
+11:32:28 
 [3/8] Instalando Python 3.12.12 y creando .venv
-14:37:55 $ D:\Desktop\plantilla-hackathon\hackathon-unam\.hackathon\.tools\uv\uv.exe python install 3.12.12 --no-bin --no-registry
-14:38:00 Downloading cpython-3.12.12-windows-x86_64-none (download) (20.8MiB)
+11:32:28 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\uv\uv.exe python install 3.12.12 --no-bin --no-registry
+11:32:34 Downloading cpython-3.12.12-windows-x86_64-none (download) (20.8MiB)
  Downloaded cpython-3.12.12-windows-x86_64-none (download)
-Installed Python 3.12.12 in 5.49s
+Installed Python 3.12.12 in 6.27s
  + cpython-3.12.12-windows-x86_64-none
-14:38:00     Python 3.12.12 disponible en .tools/python
-14:38:00 $ D:\Desktop\plantilla-hackathon\hackathon-unam\.hackathon\.tools\uv\uv.exe venv --python 3.12.12 D:\Desktop\plantilla-hackathon\hackathon-unam\.venv
-14:38:01 Using CPython 3.12.12
+11:32:34     Python 3.12.12 disponible en .tools/python
+11:32:34 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\uv\uv.exe venv --python 3.12.12 C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv
+11:32:35 Using CPython 3.12.12
 Creating virtual environment at: .venv
 Activate with: .venv\Scripts\activate
-14:38:01     .venv creado
-14:38:01 
+11:32:35     .venv creado
+11:32:35 
 [4/8] Instalando dependencias de Python (una sola resolución, solo ruedas)
-14:38:01 $ D:\Desktop\plantilla-hackathon\hackathon-unam\.hackathon\.tools\uv\uv.exe pip install --python D:\Desktop\plantilla-hackathon\hackathon-unam\.venv\Scripts\python.exe --only-binary :all: --require-hashes -r D:\Desktop\plantilla-hackathon\hackathon-unam\.hackathon\requirements.lock
-14:38:13 Resolved 57 packages in 654ms
-Downloading pydantic-core (1.9MiB)
-Downloading numpy (12.0MiB)
-Downloading pandas (11.0MiB)
+11:32:35 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\uv\uv.exe pip install --python C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe --only-binary :all: --require-hashes -r C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\requirements.lock
+11:33:05 Resolved 57 packages in 4.44s
 Downloading pywin32 (6.6MiB)
+Downloading numpy (12.0MiB)
 Downloading botocore (15.5MiB)
+Downloading pandas (11.0MiB)
 Downloading cryptography (3.6MiB)
+Downloading pydantic-core (1.9MiB)
  Downloaded pydantic-core
  Downloaded cryptography
- Downloaded numpy
  Downloaded pywin32
+ Downloaded numpy
  Downloaded pandas
  Downloaded botocore
-Prepared 57 packages in 10.66s
-Installed 57 packages in 1.22s
+Prepared 57 packages in 23.02s
+Installed 57 packages in 2.51s
  + annotated-types==0.8.0
  + anyio==4.16.0
  + attrs==26.1.0
@@ -113,40 +148,191 @@ Installed 57 packages in 1.22s
  + uvicorn==0.34.3
  + watchdog==6.0.0
  + wrapt==2.5.2
-14:38:13     Dependencias de Python instaladas desde el archivo de bloqueo
-14:38:13 
+11:33:05     Dependencias de Python instaladas desde el archivo de bloqueo
+11:33:05 
 [5/8] Descargando Node 22.23.1 portátil y verificando SHA-256
-14:38:13 descargando https://nodejs.org/dist/v22.23.1/SHASUMS256.txt
-14:38:14 descargando https://nodejs.org/dist/v22.23.1/node-v22.23.1-win-x64.zip
-14:38:16     Suma SHA-256 verificada
-14:38:19     Node v22.23.1 instalado en .tools/node
-14:38:19 
+11:33:05 descargando https://nodejs.org/dist/v22.23.1/SHASUMS256.txt
+11:33:06 descargando https://nodejs.org/dist/v22.23.1/node-v22.23.1-win-x64.zip
+11:33:11     Suma SHA-256 verificada
+11:33:15     Node v22.23.1 instalado en .tools/node
+11:33:15 
 [6/8] Instalando dependencias del frontend (npm ci)
-14:38:19 $ D:\Desktop\plantilla-hackathon\hackathon-unam\.hackathon\.tools\node\npm.cmd ci --ignore-scripts
-14:38:57 
-added 173 packages in 34s
-14:38:57     Dependencias del frontend instaladas con npm ci --ignore-scripts
-14:38:57 
+11:33:15 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\node\npm.cmd ci --ignore-scripts
+11:34:31 
+added 173 packages in 1m
+11:34:31     Dependencias del frontend instaladas con npm ci --ignore-scripts
+11:34:31 
 [7/8] Comprobando todo
-14:38:59 $ D:\Desktop\plantilla-hackathon\hackathon-unam\.hackathon\.tools\uv\uv.exe pip check --python D:\Desktop\plantilla-hackathon\hackathon-unam\.venv\Scripts\python.exe
-14:38:59 Checked 57 packages in 5ms
+11:34:33 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\uv\uv.exe pip check --python C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe
+11:34:33 Checked 57 packages in 21ms
 All installed packages are compatible
-14:38:59 $ D:\Desktop\plantilla-hackathon\hackathon-unam\.venv\Scripts\python.exe -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
-14:39:05 
-14:39:05   Pieza              Esperado                            Encontrado      Estado
-14:39:05   -----------------  ----------------------------------  --------------  ------
-14:39:05   uv                 0.11.19                             0.11.19         OK    
-14:39:05   Python (.venv)     3.12.12                             3.12.12         OK    
-14:39:05   Node               v22.23.1                            v22.23.1        OK    
-14:39:05   npm                10.x                                10.9.8          OK    
-14:39:05   Paquetes Python    9 fijos                             9 coinciden     OK    
-14:39:05   Paquetes npm       12 fijos                            12 coinciden    OK    
-14:39:05   pip check          sin conflictos                      sin conflictos  OK    
-14:39:05   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
-14:39:05 
+11:34:33 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+11:34:55 
+11:34:55   Pieza              Esperado                            Encontrado      Estado
+11:34:55   -----------------  ----------------------------------  --------------  ------
+11:34:55   uv                 0.11.19                             0.11.19         OK    
+11:34:55   Python (.venv)     3.12.12                             3.12.12         OK    
+11:34:55   Node               v22.23.1                            v22.23.1        OK    
+11:34:55   npm                10.x                                10.9.8          OK    
+11:34:55   Paquetes Python    9 fijos                             9 coinciden     OK    
+11:34:55   Paquetes npm       12 fijos                            12 coinciden    OK    
+11:34:55   pip check          sin conflictos                      sin conflictos  OK    
+11:34:55   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+11:34:55 
 [8/8] Resultado
-14:39:05 
+11:34:55 
 TODO OK. Tu proyecto está en:
-  D:\Desktop\plantilla-hackathon\hackathon-unam
+  C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack
 Trabaja dentro de esa carpeta. Cuando termines, corre:  .\.hackathon\setup.cmd --entregar
-14:39:05 FIN con código de salida 0
+11:34:55 FIN con código de salida 0
+
+===== setup 2026-11-20 11:37:18 =====
+11:37:18 Sistema detectado: windows x64  |  Python del arranque: 3.12.12
+11:37:18 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+11:37:18 SISTEMA: Windows-11-10.0.26300-SP0  |  detectado: windows x64  |  versión: 10.0.26300
+11:37:18 WINDOWS: build 26300  |  administrador: False
+11:37:18 PYTHON: 3.12.12 (C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe)
+11:37:18 USUARIO: domin  |  carpeta actual: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack
+11:37:18 PROYECTO: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack  |  largo de ruta: 85  |  espacios: False  |  no ASCII: False
+11:37:18 DISCO LIBRE: 3.5 GB
+11:37:18 PROXY: ninguno
+11:37:18 Proyecto: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack
+11:37:18 
+Validando (no se descarga ni instala nada)...
+11:37:18 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\uv\uv.exe pip check --python C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe
+11:37:18 Checked 57 packages in 3ms
+All installed packages are compatible
+11:37:18 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+11:37:21 
+11:37:21   Pieza              Esperado                            Encontrado      Estado
+11:37:21   -----------------  ----------------------------------  --------------  ------
+11:37:21   uv                 0.11.19                             0.11.19         OK    
+11:37:21   Python (.venv)     3.12.12                             3.12.12         OK    
+11:37:21   Node               v22.23.1                            v22.23.1        OK    
+11:37:21   npm                10.x                                10.9.8          OK    
+11:37:21   Paquetes Python    9 fijos                             9 coinciden     OK    
+11:37:21   Paquetes npm       12 fijos                            12 coinciden    OK    
+11:37:21   pip check          sin conflictos                      sin conflictos  OK    
+11:37:21   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+11:37:21 
+Revisando desviaciones del stack...
+11:37:21 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+11:37:22 
+11:37:22     El proyecto sigue el stack del evento
+11:37:22 
+RESULTADO: TODO OK, puedes entregar.
+11:37:22 FIN con código de salida 0
+
+===== setup 2026-11-20 12:32:05 =====
+12:32:05 Sistema detectado: windows x64  |  Python del arranque: 3.12.12
+12:32:05 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+12:32:05 SISTEMA: Windows-11-10.0.26300-SP0  |  detectado: windows x64  |  versión: 10.0.26300
+12:32:05 WINDOWS: build 26300  |  administrador: False
+12:32:05 PYTHON: 3.12.12 (C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe)
+12:32:05 USUARIO: domin  |  carpeta actual: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack
+12:32:05 PROYECTO: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack  |  largo de ruta: 85  |  espacios: False  |  no ASCII: False
+12:32:05 DISCO LIBRE: 3.2 GB
+12:32:05 PROXY: ninguno
+12:32:05 Proyecto: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack
+12:32:05 
+Validando (no se descarga ni instala nada)...
+12:32:08 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\uv\uv.exe pip check --python C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe
+12:32:08 Checked 57 packages in 3ms
+All installed packages are compatible
+12:32:08 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+12:32:10 
+12:32:10   Pieza              Esperado                            Encontrado      Estado
+12:32:10   -----------------  ----------------------------------  --------------  ------
+12:32:10   uv                 0.11.19                             0.11.19         OK    
+12:32:10   Python (.venv)     3.12.12                             3.12.12         OK    
+12:32:10   Node               v22.23.1                            v22.23.1        OK    
+12:32:10   npm                10.x                                10.9.8          OK    
+12:32:10   Paquetes Python    9 fijos                             9 coinciden     OK    
+12:32:10   Paquetes npm       12 fijos                            12 coinciden    OK    
+12:32:10   pip check          sin conflictos                      sin conflictos  OK    
+12:32:10   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+12:32:10 
+Revisando desviaciones del stack...
+12:32:10 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+12:32:11 
+12:32:11     El proyecto sigue el stack del evento
+12:32:11 
+RESULTADO: TODO OK, puedes entregar.
+12:32:11 FIN con código de salida 0
+
+===== setup 2026-11-20 12:39:36 =====
+12:39:36 Sistema detectado: windows x64  |  Python del arranque: 3.12.12
+12:39:36 MODO: entregar  |  versión del script: 2026-11-16  |  argumentos: --entregar
+12:39:36 SISTEMA: Windows-11-10.0.26300-SP0  |  detectado: windows x64  |  versión: 10.0.26300
+12:39:36 WINDOWS: build 26300  |  administrador: False
+12:39:36 PYTHON: 3.12.12 (C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe)
+12:39:36 USUARIO: domin  |  carpeta actual: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon
+12:39:36 PROYECTO: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack  |  largo de ruta: 85  |  espacios: False  |  no ASCII: False
+12:39:36 DISCO LIBRE: 3.4 GB
+12:39:36 PROXY: ninguno
+12:39:36 Proyecto: C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack
+12:39:36 
+Preparando la entrega...
+12:39:36 
+[1/7] Validando el entorno
+12:39:39 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\uv\uv.exe pip check --python C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe
+12:39:39 Checked 57 packages in 3ms
+All installed packages are compatible
+12:39:39 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+12:39:41 
+12:39:41   Pieza              Esperado                            Encontrado      Estado
+12:39:41   -----------------  ----------------------------------  --------------  ------
+12:39:41   uv                 0.11.19                             0.11.19         OK    
+12:39:41   Python (.venv)     3.12.12                             3.12.12         OK    
+12:39:41   Node               v22.23.1                            v22.23.1        OK    
+12:39:41   npm                10.x                                10.9.8          OK    
+12:39:41   Paquetes Python    9 fijos                             9 coinciden     OK    
+12:39:41   Paquetes npm       12 fijos                            12 coinciden    OK    
+12:39:41   pip check          sin conflictos                      sin conflictos  OK    
+12:39:41   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+12:39:41 
+[2/7] Revisando el README y el stack
+12:39:41     AVISO: README.md no tiene ninguna imagen; los jueces piden un visual bien formateado
+12:39:42 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+12:39:43 
+12:39:43     El proyecto sigue el stack del evento
+12:39:43     Rutas del dashboard OK (ninguna empieza con '/')
+12:39:43 
+[3/7] Compilando el dashboard (vite build)
+12:39:43 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\node\node.exe C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\dashboard\node_modules\vite\bin\vite.js build
+12:39:47 [36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mâœ“[39m 428 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.38 kB[22m[1m[22m[2m â”‚ gzip:   0.28 kB[22m
+[2mdist/[22m[35massets/index-uyoQ4fWW.css  [39m[1m[2m 23.47 kB[22m[1m[22m[2m â”‚ gzip:   6.01 kB[22m
+[2mdist/[22m[36massets/index-CnPhO9r7.js   [39m[1m[33m589.03 kB[39m[22m[2m â”‚ gzip: 173.51 kB[22m
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32mâœ“ built in 4.02s[39m
+12:39:47     Dashboard compilado en dashboard/dist
+12:39:47 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.hackathon\.tools\node\node.exe C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\dashboard\node_modules\typescript\bin\tsc --noEmit -p C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\dashboard
+12:39:49 
+12:39:49 
+[4/7] Comprobando el backend (sintaxis e importación)
+12:39:49 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe -m compileall -q backend
+12:39:49 
+12:39:49 $ C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\nfl-big-data-2026-hack\.venv\Scripts\python.exe -c import backend.main
+12:39:50 
+12:39:50     Backend OK (backend.main se importa sin errores)
+12:39:50 
+[5/7] Buscando llaves y credenciales en tus archivos
+12:39:51     Sin credenciales a la vista
+12:39:51 
+[6/7] Empaquetando
+12:40:32 
+[7/7] Verificando el .zip
+12:40:36     221 archivos, 177.2 MB
+12:40:36 
+LISTO. Sube este archivo:
+  C:\Users\domin\Documents\Dominic\Universidad\Competencias\2026\entrega-nfl-big-data-2026-hack-20261120-1239.zip
+12:40:36 FIN con código de salida 0
