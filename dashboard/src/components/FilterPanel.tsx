@@ -27,7 +27,7 @@ function SelectField({ id, label, value, options, disabled, onChange }: SelectFi
         value={value}
         disabled={disabled}
         onChange={(event) => onChange(id, event.target.value)}
-        className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-800 shadow-sm outline-none transition focus:border-emerald-700 focus:ring-2 focus:ring-emerald-700/20 disabled:cursor-not-allowed disabled:bg-slate-100"
+        className="filter-select w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm font-semibold text-slate-800 shadow-sm outline-none transition disabled:cursor-not-allowed disabled:bg-slate-100"
       >
         <option value="">Todos</option>
         {options.map((option) => (
@@ -46,7 +46,7 @@ export default function FilterPanel({ options, value, disabled, onChange, onRese
   const hasFilters = Object.values(value).some(Boolean)
 
   return (
-    <section aria-labelledby="filters-title" className="border-b border-slate-200 bg-white shadow-sm">
+    <section aria-labelledby="filters-title" className="filter-bar border-b border-slate-200 bg-white shadow-sm">
       <div className="mx-auto max-w-screen-2xl px-4 py-5 sm:px-6 lg:px-8">
         <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
           <div>
@@ -57,7 +57,7 @@ export default function FilterPanel({ options, value, disabled, onChange, onRese
             type="button"
             onClick={onReset}
             disabled={disabled || !hasFilters}
-            className="rounded-lg border border-slate-300 px-3.5 py-2 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-emerald-700 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-45"
+            className="reset-button rounded-lg border border-slate-300 px-3.5 py-2 text-sm font-bold transition disabled:cursor-not-allowed disabled:opacity-45"
           >
             Restablecer filtros
           </button>

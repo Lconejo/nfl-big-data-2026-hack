@@ -24,15 +24,15 @@ interface LossRateChartProps {
   data: PerformancePoint[]
 }
 
-const chartText = { fill: '#475569', fontSize: 12 }
-const gridColor = '#e2e8f0'
-const reasonColors = ['#9f1239', '#c2410c', '#b45309', '#475569', '#0369a1', '#6d28d9']
+const chartText = { fill: '#526071', fontSize: 12, fontWeight: 600 }
+const gridColor = '#dbe2ea'
+const reasonColors = ['var(--team-primary)', '#b91c1c', '#ea580c', '#d97706', 'var(--team-secondary)', '#64748b']
 
 function ChartShell({ title, description, children }: { title: string; description: string; children: React.ReactNode }) {
   return (
-    <article className="min-w-0 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-6">
-      <div className="mb-5">
-        <h3 className="text-lg font-bold text-slate-950">{title}</h3>
+    <article className="chart-card min-w-0 rounded-2xl border border-slate-200 bg-white p-4 sm:p-6">
+      <div className="mb-5 border-l-4 pl-3" style={{ borderColor: 'var(--team-primary)' }}>
+        <h3 className="text-lg font-black uppercase tracking-tight text-slate-950">{title}</h3>
         <p className="mt-1 text-sm leading-6 text-slate-600">{description}</p>
       </div>
       {children}
@@ -63,8 +63,8 @@ export function RateComparisonChart({ title, description, data }: RateComparison
                   labelFormatter={(label) => String(label)}
                 />
                 <Legend formatter={(value) => value === 'conversionRate' ? 'Conversión' : 'Pérdida de posesión'} />
-                <Bar dataKey="conversionRate" fill="#047857" name="conversionRate" radius={[0, 3, 3, 0]} />
-                <Bar dataKey="lossRate" fill="#9f1239" name="lossRate" radius={[0, 3, 3, 0]} />
+                <Bar dataKey="conversionRate" fill="var(--team-primary)" name="conversionRate" radius={[0, 3, 3, 0]} />
+                <Bar dataKey="lossRate" fill="#b91c1c" name="lossRate" radius={[0, 3, 3, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -94,7 +94,7 @@ export function LossByDownChart({ data }: LossRateChartProps) {
                 <XAxis dataKey="label" tick={chartText} />
                 <YAxis domain={[0, 100]} tickFormatter={(value) => `${value}%`} tick={chartText} width={46} />
                 <Tooltip formatter={(value) => [formatRate(Number(value)), 'Pérdida de posesión']} />
-                <Bar dataKey="lossRate" fill="#9f1239" name="Pérdida de posesión" radius={[5, 5, 0, 0]} />
+                <Bar dataKey="lossRate" fill="#b91c1c" name="Pérdida de posesión" radius={[5, 5, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>

@@ -13,14 +13,14 @@ interface CardProps {
 }
 
 const accents = {
-  default: 'border-t-slate-500',
-  risk: 'border-t-rose-700',
-  success: 'border-t-emerald-700',
+  default: 'summary-default',
+  risk: 'summary-risk',
+  success: 'summary-success',
 }
 
 function Card({ label, value, detail, emphasis = 'default' }: CardProps) {
   return (
-    <article className={`rounded-xl border border-slate-200 border-t-4 bg-white p-4 shadow-sm ${accents[emphasis]}`}>
+    <article className={`summary-card rounded-xl border border-slate-200 border-t-4 bg-white p-4 ${accents[emphasis]}`}>
       <p className="text-xs font-bold uppercase tracking-wide text-slate-500">{label}</p>
       <p className="mt-2 text-2xl font-bold tabular-nums text-slate-950">{value}</p>
       <p className="mt-1 text-xs leading-5 text-slate-600">{detail}</p>

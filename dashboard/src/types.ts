@@ -60,6 +60,8 @@ export interface LossReason {
   percentage: number
 }
 
+export interface FieldZonePoint extends PerformancePoint {}
+
 export interface Decision {
   category: string
   option: string

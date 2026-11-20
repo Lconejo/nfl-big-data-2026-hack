@@ -3,7 +3,7 @@ import type { DashboardPlay, Decision } from '../types'
 
 export function DecisionsTable({ decisions }: { decisions: Decision[] }) {
   return (
-    <section aria-labelledby="decisions-title" className="rounded-2xl border border-slate-200 bg-white shadow-sm">
+    <section aria-labelledby="decisions-title" className="table-card rounded-2xl border border-slate-200 bg-white">
       <div className="border-b border-slate-200 p-4 sm:p-6">
         <h2 id="decisions-title" className="text-xl font-bold text-slate-950">Decisiones observadas y resultados</h2>
         <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-600">Compara opciones registradas dentro del alcance filtrado. Las asociaciones describen la muestra y no demuestran que una decisión cause el resultado.</p>
@@ -50,7 +50,7 @@ export function DecisionsTable({ decisions }: { decisions: Decision[] }) {
 
 export function PlaysTable({ plays }: { plays: DashboardPlay[] }) {
   return (
-    <section aria-labelledby="plays-title" className="rounded-2xl border border-slate-200 bg-white shadow-sm">
+    <section aria-labelledby="plays-title" className="table-card rounded-2xl border border-slate-200 bg-white">
       <div className="border-b border-slate-200 p-4 sm:p-6">
         <h2 id="plays-title" className="text-xl font-bold text-slate-950">Jugadas del corte</h2>
         <p className="mt-1 text-sm text-slate-600">Detalle auditable de las jugadas devueltas por el análisis.</p>
